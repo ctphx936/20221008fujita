@@ -7,7 +7,7 @@
 <div class="mainform">
     <div class="mainform__2">
         <div class="mainhead">
-            <div class="title">タスク検索</div>
+            <div class="mainhead"> <div class="title">タスク検索</div> </div>
             @if (Auth::check())
             <p>{{'「'.$user->name.'」' . 'でログイン中　　'}}</p>
             @else
